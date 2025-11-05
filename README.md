@@ -1,6 +1,21 @@
 # Claude Deep Research Agent
 See example outputs here: https://claude-code-deep-research.vercel.app/
 
+## 🆕 Now Available as Claude Code Skill!
+
+This repository can now be imported as a Claude Code skill for instant, automated deep research.
+
+**Quick Install:**
+```bash
+cp -r deep-research ~/.claude/skills/
+```
+
+Then simply ask: `"Deep research on [your topic]"`
+
+📖 See [INSTALL_SKILL.md](INSTALL_SKILL.md) for complete installation instructions.
+
+---
+
 ## Table of Contents
 
 1. [Why This Exists](#why-this-exists)
