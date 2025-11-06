@@ -1,0 +1,44 @@
+# Claude Code local settings (contains user-specific preferences)
+.claude/settings.local.json
+.claude/todos/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Research working files (keep final outputs only)
+**/scratch/
+**/drafts/
+**/temp/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables (if used)
+.env
+.env.local
+
+# Logs
+*.log
+logs/
