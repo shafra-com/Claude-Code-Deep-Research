@@ -2,9 +2,33 @@
 
 This repository has been converted into an importable Claude Code skill. Follow these instructions to download and install it.
 
-## 🚀 One-Command Install (Fastest)
+## 🚀 One-Command Install
 
-If you're comfortable with terminal commands, copy and paste this **entire block** into your terminal:
+### Test Locally First (Recommended)
+
+Install to **current project only** for testing:
+
+**Linux/macOS:**
+```bash
+mkdir -p .claude/skills/ && \
+git clone https://github.com/shafra-com/Claude-Code-Deep-Research.git temp-repo && \
+cp -r temp-repo/deep-research .claude/skills/ && \
+rm -rf temp-repo && \
+echo "✅ Project-local installation complete! Test in this directory first."
+```
+
+**Windows (PowerShell):**
+```powershell
+mkdir -Force .claude\skills; git clone https://github.com/shafra-com/Claude-Code-Deep-Research.git temp-repo; Copy-Item -Recurse temp-repo\deep-research .claude\skills\; Remove-Item -Recurse temp-repo; Write-Host "✅ Project-local installation complete!"
+```
+
+📖 **See [TESTING_LOCALLY.md](TESTING_LOCALLY.md) for complete testing guide**
+
+---
+
+### Install Globally (After Testing)
+
+Install for **all projects** once you've tested:
 
 **Linux/macOS:**
 ```bash

@@ -5,14 +5,24 @@ See example outputs here: https://claude-code-deep-research.vercel.app/
 
 This repository can now be imported as a Claude Code skill for instant, automated deep research.
 
-**Quick Install:**
+**Test Locally First (Recommended):**
+```bash
+mkdir -p .claude/skills/
+cp -r deep-research .claude/skills/
+# Test in current project only
+```
+
+**Install Globally (After Testing):**
 ```bash
 cp -r deep-research ~/.claude/skills/
+# Available in all projects
 ```
 
 Then simply ask: `"Deep research on [your topic]"`
 
-📖 See [INSTALL_SKILL.md](INSTALL_SKILL.md) for complete installation instructions.
+📖 **Documentation:**
+- [INSTALL_SKILL.md](INSTALL_SKILL.md) - Complete installation guide
+- [TESTING_LOCALLY.md](TESTING_LOCALLY.md) - How to test before global install
 
 ---
 
