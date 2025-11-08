@@ -1,7 +1,12 @@
 # Claude Deep Research Agent
+
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/shafra-com/Claude-Code-Deep-Research/releases/tag/v1.0.0)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-purple.svg)](https://docs.claude.com/en/docs/claude-code/skills)
+
 See example outputs here: https://claude-code-deep-research.vercel.app/
 
-## 🆕 Now Available as Claude Code Skill!
+## 🎉 v1.0.0 Released! Now Available as Claude Code Skill!
 
 This repository can now be imported as a Claude Code skill for instant, automated deep research.
 
